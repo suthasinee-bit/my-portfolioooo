@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>แฟ้มสะสมผลงาน | พัฒนาครูคอมพิวเตอร์แห่งอนาคต</title>
+    <!-- นำเข้าฟอนต์ภาษาไทย Kanit และ Sarabun จาก Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;600;700&family=Sarabun:wght@300;400;500&display=swap" rel="stylesheet">
+    <!-- นำเข้า ไอคอน Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- เชื่อมโยงไฟล์ CSS ภายนอก -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header & Navigation Bar -->
+    <header>
+        <div class="logo">
+            <i class="fa-solid fa-graduation-cap"></i> CS-Ed Portfolio
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#about"><i class="fa-solid fa-user"></i> เกี่ยวกับฉัน</a></li>
+                <li><a href="#skills"><i class="fa-solid fa-laptop-code"></i> ทักษะ</a></li>
+                <li><a href="#contact"><i class="fa-solid fa-envelope"></i> ติดต่อ</a></li>
+            </ul>
+        </nav>
+        <!-- ปุ่มสลับ Dark Mode -->
+        <button id="theme-toggle" class="btn-theme" aria-label="สลับโหมดมืด/สว่าง">
+            <i class="fa-solid fa-moon"></i> <span>โหมดมืด</span>
+        </button>
+    </header>
+
+    <!-- Main Content Area -->
+    <main>
+        <!-- Section 1: เกี่ยวกับฉัน -->
+        <section id="about" class="hero-section">
+            <div class="profile-container">
+                <img src="c:\Users\Admin\Downloads\profile.jpg.jpg" alt="รูปโปรไฟล์นักศึกษาคอมพิวเตอร์ศึกษา" class="profile-img">
+            </div>
+            <div class="hero-text">
+                <span class="badge">Computer Education Student</span>
+                <h1>สวัสดีค่ะ ฉันชื่อ <span class="highlight">นางสาวสุธาสินี การสมจิตร์</span></h1>
+                <p>มุ่งมั่นพัฒนาทักษะด้านเทคโนโลยีสารสนเทศและการสื่อสาร ควบคู่กับนวัตกรรมการจัดการเรียนรู้ เพื่อก้าวสู่การเป็นครูยุคดิจิทัลที่สร้างแรงบันดาลใจให้แก่ผู้เรียน</p>
+                <div class="cta-buttons">
+                    <a href="#contact" class="btn btn-primary"><i class="fa-solid fa-paper-plane"></i> ติดต่อเรา</a>
+                    <a href="#skills" class="btn btn-secondary"><i class="fa-solid fa-eye"></i> ดูทักษะความสามารถ</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 2: ทักษะความสามารถ (4 ทักษะแบบการ์ด) -->
+        <section id="skills" class="skills-section">
+            <h2 class="section-title">ทักษะและความสามารถ</h2>
+            <p class="section-subtitle">ความเชี่ยวชาญด้านคอมพิวเตอร์และการจัดการเรียนรู้</p>
+            
+            <div class="skills-container">
+                <!-- การ์ดที่ 1 -->
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fa-solid fa-code"></i></div>
+                    <h3>Web Development</h3>
+                    <p>พัฒนาเว็บไซต์ด้วย HTML5, CSS3 และ JavaScript พื้นฐาน ออกแบบให้รองรับการแสดงผลบนทุกอุปกรณ์</p>
+                </div>
+                <!-- การ์ดที่ 2 -->
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fa-solid fa-chalkboard-user"></i></div>
+                    <h3>Educational Media</h3>
+                    <p>ออกแบบและสร้างสื่อการสอนดิจิทัล สื่อมัลติมีเดีย และบทเรียนออนไลน์ที่ดึงดูดความสนใจของผู้เรียน</p>
+                </div>
+                <!-- การ์ดที่ 3 -->
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fa-solid fa-microchip"></i></div>
+                    <h3>Educational Robotics</h3>
+                    <p>การเขียนโปรแกรมควบคุมไมโครคอนโทรลเลอร์ (Arduino/KidBright) สำหรับการสอน STEM Education</p>
+                </div>
+                <!-- การ์ดที่ 4 -->
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fa-solid fa-network-wired"></i></div>
+                    <h3>IT & Network Basics</h3>
+                    <p>เข้าใจระบบเครือข่ายคอมพิวเตอร์ การดูแลระบบซอฟต์แวร์ และการจัดการฐานข้อมูลเบื้องต้น</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 3: ติดต่อ -->
+        <section id="contact" class="contact-section">
+            <h2 class="section-title">ช่องทางการติดต่อ</h2>
+            <p class="section-subtitle">สนใจร่วมงาน สอบถามข้อมูล หรือแลกเปลี่ยนเรียนรู้</p>
+
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <div class="info-item">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <div>
+                            <h4>ที่อยู่</h4>
+                            <p>คณะครุศาสตร์ สาขาคอมพิวเตอร์ศึกษา</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fa-solid fa-envelope"></i>
+                        <div>
+                            <h4>อีเมล</h4>
+                            <p>student@university.ac.th</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fa-solid fa-phone"></i>
+                        <div>
+                            <h4>โทรศัพท์</h4>
+                            <p>081-234-5678</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ฟอร์มติดต่อพร้อม Validation ด้วย JS (ภารกิจเสริม) -->
+                <form id="contact-form" class="contact-form" novalidate>
+                    <div class="form-group">
+                        <label for="name">ชื่อ-นามสกุล</label>
+                        <input type="text" id="name" placeholder="กรอกชื่อของคุณ" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">อีเมล</label>
+                        <input type="email" id="email" placeholder="example@email.com" required>
+                        <span id="email-error" class="error-msg"></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">ข้อความ</label>
+                        <textarea id="message" rows="4" placeholder="พิมพ์ข้อความที่ต้องการติดต่อ..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block">ส่งข้อความ</button>
+                    <p id="form-status" class="form-status"></p>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 CS-Ed Portfolio. สงวนลิขสิทธิ์ | พัฒนาด้วยความตั้งใจเพื่อการเรียนรู้</p>
+    </footer>
+
+    <!-- เชื่อมโยงไฟล์ JavaScript ภายนอก -->
+    <script src="script.js"></script>
+</body>
+</html>
